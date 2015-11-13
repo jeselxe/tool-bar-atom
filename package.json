@@ -1,0 +1,29 @@
+{
+  "name": "tool-bar-atom",
+  "main": "./lib/tool-bar-atom",
+  "version": "1.0.0",
+  "description": "A tool-bar plugin that adds an atom toolbar with many commonly used actions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeselxe/atom-toolbar-atom.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "keywords": [
+    "toolbar",
+    "tool-bar"
+  ],
+  "dependencies": {},
+  "packageDependencies": {
+    "tool-bar": "^0.1.0"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0.1.0": "consumeToolBar"
+      }
+    }
+  }
+}
