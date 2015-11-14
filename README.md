@@ -4,6 +4,10 @@
 
 An atom-tool-bar plugin that adds many commonly used actions in the tool-bar.
 
+## Preview
+
+![Screenshot](/screenshot.png)
+
 Available toolbar buttons:
 
 * **open file**
