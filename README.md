@@ -6,7 +6,7 @@ An atom-tool-bar plugin that adds many commonly used actions in the tool-bar.
 
 ## Preview
 
-![Screenshot](https://github.com/jeselxe/tool-bar-atom/blob/master/screenshot.png)
+![Screenshot](https://rawgit.com/jeselxe/tool-bar-atom/master/screenshot.png)
 
 Available toolbar buttons:
 
