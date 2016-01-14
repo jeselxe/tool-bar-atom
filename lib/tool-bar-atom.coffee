@@ -77,14 +77,14 @@ module.exports =
       'tooltip': 'Unfold all'
       'iconset': 'fa'
 
-    @toolBar.addSpacer()
-
     if atom.packages.loadedPackages['term3']
+      @toolBar.addSpacer()
       @toolBar.addButton
         'icon': 'terminal'
         'callback': 'term3:open-split-down'
         'tooltip': 'Term3 Split Down'
     else if atom.packages.loadedPackages['term2']
+      @toolBar.addSpacer()
       @toolBar.addButton
         'icon': 'terminal'
         'callback': 'term2:open-split-down'
