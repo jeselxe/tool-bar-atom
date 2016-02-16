@@ -56,6 +56,11 @@ module.exports =
       'callback': 'tree-view:toggle'
       'tooltip': 'Toggle Sidebar'
       'iconset': 'fa'
+    if atom.packages.loadedPackages['minimap']
+      @toolBar.addButton
+        'icon': 'eye'
+        'tooltip': 'Toggle Minimap'
+        'callback': 'minimap:toggle'
 
     @toolBar.addSpacer()
 
@@ -114,8 +119,43 @@ module.exports =
         'tooltip' : 'Git plus'
         'iconset' : 'devicon'
 
+    if atom.packages.loadedPackages['script']
+      @toolBar.addSpacer()
+      @toolBar.addButton
+        'icon': 'play'
+        'callback': 'script:run'
+        'tooltip': 'Run script'
+        'iconset': 'fa'
+      @toolBar.addButton
+        'icon': 'fast-forward'
+        'callback': 'script:run-by-line-number'
+        'tooltip': 'Run by Line Number'
+        'iconset': 'fa'
+      @toolBar.addButton
+        'icon': 'stop'
+        'callback': 'script:kill-process'
+        'tooltip': 'Stop script'
+        'iconset': 'fa'
+      @toolBar.addButton
+        'icon': 'gear'
+        'callback': 'script:run-options'
+        'tooltip': 'Configure script'
+        'iconset': 'fa'
+
+    @toolBar.addSpacer()
+    if atom.packages.loadedPackages['markdown-preview']
+      @toolBar.addButton
+        'icon': 'markdown'
+        'callback': 'markdown-preview:toggle'
+        'tooltip': 'Markdown Preview'
+    if atom.packages.loadedPackages['atom-html-preview']
+      @toolBar.addButton
+        'icon': 'globe'
+        'callback': 'atom-html-preview:toggle'
+        'tooltip': 'HTML Preview'
+
+    @toolBar.addSpacer()
     @toolBar.addButton
-      'icon': 'gear-a'
+      'icon': 'gear'
       'callback': 'settings-view:open'
       'tooltip': 'Open Settings View'
-      'iconset': 'ion'
