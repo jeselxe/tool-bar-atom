@@ -26,10 +26,10 @@ Available toolbar buttons:
 * **fold all**
 * **unfold all**
 * -
-* **run script** (requirest `script` package)
-* **run by line** (requirest `script` package)
-* **stop script** (requirest `script` package)
-* **configure** (requirest `script` package)
+* **run script** (requires `script` package)
+* **run by line** (requires `script` package)
+* **stop script** (requires `script` package)
+* **configure** (requires `script` package)
 * -
 * **opens a terminal (split bottom)**  (requires `term2` or `term3` package)
 * **reload window** (if in Dev Mode)
