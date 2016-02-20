@@ -6,7 +6,7 @@ An atom-tool-bar plugin that adds many commonly used actions in the tool-bar.
 
 ## Preview
 
-![Screenshot](https://rawgit.com/jeselxe/tool-bar-atom/master/screenshot.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/2527234/13086259/bc51f9d6-d4e2-11e5-8bd6-85ffe85328d0.png)
 
 Available toolbar buttons:
 
@@ -20,15 +20,25 @@ Available toolbar buttons:
 * -
 * **toggle fullscreen**
 * **toggle tree-view**
+* **toggle minimap**
 * -
 * **auto indent**
 * **fold all**
 * **unfold all**
 * -
+* **run script** (requires `script` package)
+* **run by line** (requires `script` package)
+* **stop script** (requires `script` package)
+* **configure** (requires `script` package)
+* -
 * **opens a terminal (split bottom)**  (requires `term2` or `term3` package)
 * **reload window** (if in Dev Mode)
 * **toggle devtools** (if in Dev Mode)
 * **Git commands** (requires `git-plus` package)
+* -
+* **markdown preview**
+* **HTML preview**
+* -
 * **settings**
 
 **Note**: The toolbar buttons that require other packages will only appear if you have those packages installed
