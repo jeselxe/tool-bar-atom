@@ -31,7 +31,7 @@ Available toolbar buttons:
 * **stop script** (requires `script` package)
 * **configure** (requires `script` package)
 * -
-* **opens a terminal (split bottom)**  (requires `term2` or `term3` package)
+* **opens a terminal (split bottom)**  (requires `term2` or `term3` or `terminal-plus` package)
 * **reload window** (if in Dev Mode)
 * **toggle devtools** (if in Dev Mode)
 * **Git commands** (requires `git-plus` package)
