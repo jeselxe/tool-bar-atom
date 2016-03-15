@@ -98,8 +98,8 @@ module.exports =
       @toolBar.addSpacer()
       @toolBar.addButton
         'icon': 'terminal'
-        'callback': 'terminal-plus:new'
-        'tooltip': 'New Terminal-Plus'
+        'callback': 'terminal-plus:toggle'
+        'tooltip': 'Toggle Terminal-plus'
 
     if atom.inDevMode()
 
