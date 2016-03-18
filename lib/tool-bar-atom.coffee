@@ -94,6 +94,12 @@ module.exports =
         'icon': 'terminal'
         'callback': 'term2:open-split-down'
         'tooltip': 'Term2 Split Down'
+    else if atom.packages.loadedPackages['terminal-plus']
+      @toolBar.addSpacer()
+      @toolBar.addButton
+        'icon': 'terminal'
+        'callback': 'terminal-plus:toggle'
+        'tooltip': 'Toggle Terminal-plus'
 
     if atom.inDevMode()
 
