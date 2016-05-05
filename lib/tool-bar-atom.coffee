@@ -116,9 +116,8 @@ module.exports =
         'callback': 'window:toggle-dev-tools'
         'tooltip': 'Toggle Developer Tools'
 
-    @toolBar.addSpacer()
-
     if atom.packages.loadedPackages['git-plus']
+      @toolBar.addSpacer()
       @toolBar.addButton
         'icon' : 'git-plain'
         'callback' : 'git-plus:menu'
@@ -161,6 +160,11 @@ module.exports =
         'tooltip': 'HTML Preview'
 
     @toolBar.addSpacer()
+    @toolBar.addButton
+      icon: 'navicon-round'
+      callback: 'command-palette:toggle'
+      tooltip: 'Toggle Command Palette'
+      iconset: 'ion'
     @toolBar.addButton
       'icon': 'gear'
       'callback': 'settings-view:open'
