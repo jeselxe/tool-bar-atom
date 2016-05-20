@@ -61,6 +61,11 @@ module.exports =
         'icon': 'eye'
         'tooltip': 'Toggle Minimap'
         'callback': 'minimap:toggle'
+    if atom.packages.loadedPackages['expose']
+      @toolBar.addButton
+        'icon': 'browser'
+        'tooltip': 'Toggle Exposé'
+        'callback': 'expose:toggle'
 
     @toolBar.addSpacer()
 
