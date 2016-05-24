@@ -21,6 +21,7 @@ Available toolbar buttons:
 * **toggle fullscreen**
 * **toggle tree-view**
 * **toggle minimap**
+* **toggle exposé** (requires `expose` package)
 * -
 * **auto indent**
 * **fold all**
