@@ -26,6 +26,7 @@ Available toolbar buttons:
 * **auto indent**
 * **fold all**
 * **unfold all**
+* **beautify** (requires `atom-beautify` package)
 * -
 * **run script** (requires `script` package)
 * **run by line** (requires `script` package)
