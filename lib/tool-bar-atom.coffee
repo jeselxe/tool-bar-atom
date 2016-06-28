@@ -56,11 +56,13 @@ module.exports =
       'callback': 'tree-view:toggle'
       'tooltip': 'Toggle Sidebar'
       'iconset': 'fa'
+
     if atom.packages.loadedPackages['minimap']
       @toolBar.addButton
         'icon': 'eye'
         'tooltip': 'Toggle Minimap'
         'callback': 'minimap:toggle'
+        
     if atom.packages.loadedPackages['expose']
       @toolBar.addButton
         'icon': 'browser'
@@ -86,6 +88,13 @@ module.exports =
       'callback': 'editor:unfold-all'
       'tooltip': 'Unfold all'
       'iconset': 'fa'
+
+    if atom.packages.loadedPackages['atom-beautify']
+      @toolBar.addButton
+        'icon': 'star'
+        'callback': 'atom-beautify:beautify-editor'
+        'tooltip': 'Beautify'
+        'iconset': 'fa'
 
     if atom.packages.loadedPackages['term3']
       @toolBar.addSpacer()
