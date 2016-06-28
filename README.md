@@ -6,7 +6,7 @@ An atom-tool-bar plugin that adds many commonly used actions in the tool-bar.
 
 ## Preview
 
-![Screenshot](https://cloud.githubusercontent.com/assets/2527234/13086259/bc51f9d6-d4e2-11e5-8bd6-85ffe85328d0.png)
+![Screenshot](https://github.com/jeselxe/tool-bar-atom/raw/master/screenshot.png)
 
 Available toolbar buttons:
 
@@ -26,6 +26,7 @@ Available toolbar buttons:
 * **auto indent**
 * **fold all**
 * **unfold all**
+* **beautify** (requires `atom-beautify` package)
 * -
 * **run script** (requires `script` package)
 * **run by line** (requires `script` package)
