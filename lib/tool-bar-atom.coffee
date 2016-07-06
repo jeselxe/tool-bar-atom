@@ -38,7 +38,7 @@ module.exports =
       'callback': 'pane:split-right'
 
     @toolBar.addButton
-      'icon': 'columns fa-rotate-270'
+      'icon': 'columns-fa-rotate-270'
       'iconset': 'fa'
       'tooltip': 'Split screen - Vertically'
       'callback': 'pane:split-down'
