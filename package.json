@@ -1,7 +1,7 @@
 {
   "name": "tool-bar-atom",
   "main": "./lib/tool-bar-atom",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "A tool-bar plugin that adds an atom toolbar with many commonly used actions",
   "repository": {
     "type": "git",
