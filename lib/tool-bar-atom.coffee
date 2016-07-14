@@ -37,11 +37,12 @@ module.exports =
       'tooltip': 'Split screen - Horizontally'
       'callback': 'pane:split-right'
 
-    @toolBar.addButton
-      'icon': 'columns-fa-rotate-270'
+    btn = @toolBar.addButton
+      'icon': 'columns'
       'iconset': 'fa'
       'tooltip': 'Split screen - Vertically'
       'callback': 'pane:split-down'
+    btn.element.classList.add 'fa-rotate-270'
 
     @toolBar.addSpacer()
 
@@ -62,7 +63,7 @@ module.exports =
         'icon': 'eye'
         'tooltip': 'Toggle Minimap'
         'callback': 'minimap:toggle'
-        
+
     if atom.packages.loadedPackages['expose']
       @toolBar.addButton
         'icon': 'browser'
