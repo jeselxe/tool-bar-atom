@@ -115,6 +115,12 @@ module.exports =
         'icon': 'terminal'
         'callback': 'terminal-plus:toggle'
         'tooltip': 'Toggle Terminal-plus'
+    else if atom.packages.loadedPackages['platformio-ide-terminal']
+      @toolBar.addSpacer()
+      @toolBar.addButton
+        'icon': 'terminal'
+        'callback': 'platformio-ide-terminal:toggle'
+        'tooltip': 'Toggle Platformio-ide-terminal'
 
     if atom.inDevMode()
 
