@@ -144,6 +144,13 @@ module.exports =
         'callback' : 'git-plus:menu'
         'tooltip' : 'Git plus'
         'iconset' : 'devicon'
+    else if atom.packages.loadedPackages['git-control']
+      @toolBar.addSpacer()
+      @toolBar.addButton
+        'icon' : 'git-plain'
+        'callback' : 'git-control:toggle'
+        'tooltip' : 'Git control'
+        'iconset' : 'devicon'
 
     if atom.packages.loadedPackages['script']
       @toolBar.addSpacer()
