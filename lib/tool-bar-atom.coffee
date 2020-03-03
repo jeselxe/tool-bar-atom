@@ -6,19 +6,19 @@ module.exports =
     @toolBar = toolBar 'tool-bar-atom'
 
     @toolBar.addButton
-      icon: 'document-text'
+      icon: 'md-document'
       callback: 'application:open-file'
       tooltip: 'Open File'
       iconset: 'ion'
 
     @toolBar.addButton
-      'icon': 'folder'
+      'icon': 'md-folder'
       'callback': 'application:open-folder'
       'tooltip': 'Open Folder'
       'iconset': 'ion'
 
     @toolBar.addButton
-      'icon': 'archive'
+      'icon': 'md-archive'
       'callback': 'core:save'
       'tooltip': 'Save File'
       'iconset': 'ion'
@@ -127,7 +127,7 @@ module.exports =
       @toolBar.addSpacer()
 
       @toolBar.addButton
-        'icon': 'refresh'
+        'icon': 'md-refresh'
         'callback': 'window:reload'
         'tooltip': 'Reload Window'
         'iconset': 'ion'
@@ -189,7 +189,7 @@ module.exports =
 
     @toolBar.addSpacer()
     @toolBar.addButton
-      icon: 'navicon-round'
+      icon: 'md-menu'
       callback: 'command-palette:toggle'
       tooltip: 'Toggle Command Palette'
       iconset: 'ion'
