@@ -79,13 +79,13 @@ module.exports =
       'iconset': 'fa'
 
     @toolBar.addButton
-      'icon': 'level-up'
+      'icon': 'level-up-alt'
       'callback': 'editor:fold-all'
       'tooltip': 'Fold all'
       'iconset': 'fa'
 
     @toolBar.addButton
-      'icon': 'level-down'
+      'icon': 'level-down-alt'
       'callback': 'editor:unfold-all'
       'tooltip': 'Unfold all'
       'iconset': 'fa'
@@ -170,7 +170,7 @@ module.exports =
         'tooltip': 'Stop script'
         'iconset': 'fa'
       @toolBar.addButton
-        'icon': 'gear'
+        'icon': 'cog'
         'callback': 'script:run-options'
         'tooltip': 'Configure script'
         'iconset': 'fa'
